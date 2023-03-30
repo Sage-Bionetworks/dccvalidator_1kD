@@ -33,6 +33,7 @@ golem_add_external_resources <- function() {
     golem::activate_js(),
     golem::favicon(),
     tags$link(rel = "stylesheet", type = "text/css", href = "www/custom.css"),
-    tags$script(src = "www/readCookie.js")
+    tags$script(src = "www/readCookie.js"),
+    tags$script(htmlwidgets::JS("setTimeout(function(){history.pushState({}, 'Metadata Validation', window.location.pathname);},2000);"))
   )
 }
