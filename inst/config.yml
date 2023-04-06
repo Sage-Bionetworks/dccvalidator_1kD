@@ -279,7 +279,6 @@ veoibd:
   contact_email: "cmolitor@synapse.org"
 
 1kD:
-  app_url: "https://shinypro.synapse.org/users/danlu/dccvalidator_1kD/"
   parent: "syn27605292"
   path_to_markdown: "inst/using-the-dccvalidator-1kD.Rmd"
   study_table: "syn27610007"
