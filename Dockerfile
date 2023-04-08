@@ -15,5 +15,5 @@ ENV SHINY_LOG_LEVEL=DEBUG
 RUN Rscript -e 'renv::restore(repos="https://packagemanager.rstudio.com/all/__linux__/jammy/latest"); renv::install("./")'
 
 # running that script, to pass a configuration env var to Shiny
-RUN chmod +x dccmonitor_startup.sh
+RUN chmod +x dccvalidator_1kD_startup.sh
 CMD ["./dccvalidator_1kD_startup.sh"]
