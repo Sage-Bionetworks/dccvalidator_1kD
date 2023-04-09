@@ -304,7 +304,7 @@ veoibd:
     - "3466183"  # 1kD_DyadicSociometrics_Cambridge
     - "3436714"  # 1kD_First1000Daysdatabase
     - "3458847"  # 1kD_M4EFaD_BMT team
-    - "3464137"  # 1kD_Stanford_Yeung team
+    - "3464137"  # 1kD_Computer Vision Analysis of PCI
     - "3460645"  # 1kD_M4EFaD_Auckland
   include_biospecimen_type: FALSE
   templates:

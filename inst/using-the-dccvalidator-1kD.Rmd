@@ -24,8 +24,8 @@ To use this application you must:
 
 1. Be logged in to Synapse in your browser
 2. Be a [Synapse certified user](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html){target="_blank"}
-3. Be a member of either of the teams: [1kD_Assembloids](https://www.synapse.org/#!Team:3436716), [1kD_BRAINRISE](https://www.synapse.org/#!Team:3436720), [1kD_Connectome](https://www.synapse.org/#!Team:3436722), [1kD_DyadicSociometrics](https://www.synapse.org/#!Team:3436713), [1kD_First1000Daysdatabase](https://www.synapse.org/#!Team:3436714), [1kD_InfantNaturalStatistics](https://www.synapse.org/#!Team:3436721), [
-1kD_KHULA](https://www.synapse.org/#!Team:3436718), [1kD_M4EFaD_LABS](https://www.synapse.org/#!Team:3436717), [1kD_M4EFaD_BMT](https://www.synapse.org/#!Team:3458847),[1kD_MicrobiomeBrainDevelopment](https://www.synapse.org/#!Team:3436509),[1kD_M4EFaD_Auckland](https://www.synapse.org/#!Team:3460645){target="_blank"}
+3. Be a member of either of the teams: [1kD_Assembloids](https://www.synapse.org/#!Team:3436716), [1kD_BRAINRISE](https://www.synapse.org/#!Team:3436720), [1kD_Connectome](https://www.synapse.org/#!Team:3436722), [1kD_DyadicSociometrics_NTU](https://www.synapse.org/#!Team:3436713), [1kD_DyadicSociometrics_Cambridge](https://www.synapse.org/#!Team:3466183),[1kD_First1000Daysdatabase](https://www.synapse.org/#!Team:3436714), [1kD_InfantNaturalStatistics](https://www.synapse.org/#!Team:3436721), [
+1kD_KHULA](https://www.synapse.org/#!Team:3436718), [1kD_M4EFaD_LABS](https://www.synapse.org/#!Team:3436717), [1kD_M4EFaD_BMT](https://www.synapse.org/#!Team:3458847),[1kD_MicrobiomeBrainDevelopment](https://www.synapse.org/#!Team:3436509),[1kD_M4EFaD_Auckland](https://www.synapse.org/#!Team:3460645), [1kD_Computer Vision Analysis of PCI](https://www.synapse.org/#!Team:3464137){target="_blank"}
 
 Some portions of the app submit data to Synapse. This allows curators at Sage to troubleshoot issues if needed. No one outside the [1kD admins](https://www.synapse.org/#!Team:3433360) will be able to download the data.
 
