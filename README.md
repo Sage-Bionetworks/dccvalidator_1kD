@@ -52,7 +52,7 @@ docker pull ghcr.io/sage-bionetworks/dccvalidator_1kd:v1.0.0
 
 ### Create a container from the docker image
 ```
-docker run --rm -it -p 8100:3838 -e APP_REDIRECT_URL=<APP_REDIRECT_URL> -e R_CONFIG_ACTIVE=1kD -e client_id=<Oauth client id> -e client_name=<Oauth client name> -e client_secret=<Oauth client secret> --name <container name> <dccvalidator_1kd or pull ghcr.io/sage-bionetworks/dccvalidator_1kd:v1.0.0>
+docker run --rm -it -p 8100:3838 -e APP_REDIRECT_URL=<APP_REDIRECT_URL> -e R_CONFIG_ACTIVE=1kD -e client_id=<Oauth client id> -e client_name=<Oauth client name> -e client_secret=<Oauth client secret> --name <container name> <dccvalidator_1kd or ghcr.io/sage-bionetworks/dccvalidator_1kd:v1.0.0>
 ```
 Once the container is created, you can head to the APP_REDIRECT_URL you specified to enter the app. 
 
