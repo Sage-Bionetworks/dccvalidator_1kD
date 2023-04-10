@@ -37,6 +37,21 @@ installed.
 Because dccvalidator uses reticulate, it is not compatible with the
 [synapser](https://r-docs.synapse.org/) package.
 
+## Dockerize the App
+### Authentication
+The dccmonitor can be authorized to log in to Synapse using Synapse Authentication (OAuth) client. Please view instructions [here](https://help.synapse.org/docs/Using-Synapse-as-an-OAuth-Server.2048327904.html#UsingSynapseasanOAuthServer-RegisteringandLinkinganOAuth2.0Client) to learn how to request a client. Our OAuth clients were created using Synapse service accounts in order to enable multiple Sage employees to maintain the applications. In the Shared-SysBio LastPass folder, credentials for each client are recorded. In the notes section of the credentials (click on the entry > Edit to see notes), the service account used to create the client is noted.
+
+### Build a docker image using Dockerfile
+```
+docker build -t dccvalidator_1kd -f Dockerfile .  
+```
+
+### Create a container from the docker image
+```
+docker run --rm -it -p 8100:3838 -e APP_REDIRECT_URL=<APP_REDIRECT_URL> -e R_CONFIG_ACTIVE=1kD -e client_id=<Oauth client id> -e client_name=<Oauth client name> -e client_secret=<Oauth client secret> --name <container name> dccvalidator_1kd 
+```
+Once the container is created, you can head to the APP_REDIRECT_URL you specified to enter the app. 
+
 ## Check data
 
 dccvalidator provides functions for checking the following common data
@@ -66,6 +81,7 @@ See the [customizing
 dccvalidator](https://sage-bionetworks.github.io/dccvalidator/articles/customizing-dccvalidator.html)
 vignette for information on how to spin up a customized version of the
 application
+
 
 ## Requesting New Features or Bug Fixes
 
